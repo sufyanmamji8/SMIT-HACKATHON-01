@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar .logo {
+  width: 15vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#navbar .logo span {
+  position: absolute;
+  left: 10%;
+}
+
+#navbar .logo span:hover {
+  text-decoration: underline;
+}
+
+#navbar .logo img {
+  width: 8vw;
+  height: 10vh;
+  object-fit: contain;
+}
+
+#navbar .items {
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar .items ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+#navbar .items ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+#navbar .items ul li a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 966px) {
+  #navbar .items {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #navbar .items {
+    width: 40vw;
+  }
+  #navbar .logo img {
+    width: 15vw;
+    margin-left: -4vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #navbar .items {
+    width: 45vw;
+  }
+  #navbar .logo img {
+    width: 15vw;
+    margin-left: -4vw;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #navbar .items {
+    width: 50vw;
+  }
+  #navbar .logo img {
+    width: 15vw;
+    margin-left: -4vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #navbar .items {
+    width: 60vw;
+  }
+  #navbar .logo img {
+    width: 15vw;
+    margin-left: -4vw;
+  }
+}
