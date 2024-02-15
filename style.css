@@ -8,6 +8,7 @@
 body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+  background-color: black;
 }
 
 #navbar {
@@ -114,3 +115,108 @@ body {
     margin-left: -4vw;
   }
 }
+
+
+/* <!-- !!!!!!!!!!!!!1navbar ends here!!!!!!!!!!!!!!!!!! --> */
+
+#main1{
+  width: 100vw;
+  height: 70vh;
+  background-color: black;
+}
+
+#main1 h1{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 6vw;
+  color: white;
+}
+
+#main1 h1:nth-child(2){
+  margin-top: -5vh;
+  margin-left: -10vw;
+}
+
+#main1 p{
+  text-align: center;
+  font-size: 2vw;
+  color: grey;
+}
+
+#main1 .btn{
+  font-family: "Poppins", sans-serif;
+  width: 15vw;
+  height: 10vh;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1.1vw;
+  margin-left: 20vw;
+}
+
+#main1 h4{
+  margin-left: 20vw;
+  color: white;
+  margin-top: 2vh;
+}
+
+@media screen and (max-width: 1161px) {
+  #main1 h1:nth-child(2){
+    margin-top: -2vh;
+    margin-left: -8vw;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  #main1 h1:nth-child(1){
+    margin-top: 5vh;
+  }
+  #main1 .btn{
+    height: 7vh;
+    margin-top: 3vh;
+  }
+}
+
+@media screen and (max-width: 850px) {
+ 
+  #main1 .btn{
+    height: 5vh;
+    margin-top: 3vh;
+  }
+  #main1 p{
+    margin-top: 2vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ #main1 h1{
+  font-size: 2rem;
+ }
+ #main1 h1:nth-child(2){
+  margin-top: -2vh;
+  margin-left: -10vw;
+ }
+ #main1 .btn{
+  height: 4vh;
+  font-size: 1vw;
+ }
+ #main1 h4{
+font-size: 2vw;
+}
+}
+
+@media screen and (max-width: 550px) {
+ 
+  #main1 h1:nth-child(2){
+   margin-top: -1vh;
+   margin-left: -10vw;
+  }
+  #main1 .btn{
+   height: 3vh;
+   font-size: 1vw;
+  }
+
+ }
