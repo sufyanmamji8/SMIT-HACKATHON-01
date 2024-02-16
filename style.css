@@ -171,22 +171,22 @@ body {
 }
 
 @media screen and (max-width: 1020px) {
-  #main1{
+  #main1 {
     height: 40vh;
-   }
-   
-    #main1 h1 {
-      margin-left: -12vw;
-    }
-    #main1 p {
-      font-size: 3vw;
-      margin-left: -12vw;
-    }
-  
+  }
+
+  #main1 h1 {
+    margin-left: -12vw;
+  }
+  #main1 p {
+    font-size: 3vw;
+    margin-left: -12vw;
+  }
+
   #main1 {
     height: 50vh;
   }
-  
+
   #main1 h1:nth-child(1) {
     margin-top: 5vh;
   }
@@ -197,17 +197,17 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-  #main1{
+  #main1 {
     height: 40vh;
-   }
-   
-    #main1 h1 {
-      margin-left: -12vw;
-    }
-    #main1 p {
-      font-size: 3vw;
-      margin-left: -12vw;
-    }
+  }
+
+  #main1 h1 {
+    margin-left: -12vw;
+  }
+  #main1 p {
+    font-size: 3vw;
+    margin-left: -12vw;
+  }
   #main1 .btn {
     height: 5vh;
     margin-top: 3vh;
@@ -219,10 +219,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
- #main1{
-  height: 40vh;
- }
- 
+  #main1 {
+    height: 40vh;
+  }
+
   #main1 h1 {
     margin-left: -12vw;
   }
@@ -248,10 +248,10 @@ body {
 }
 
 @media screen and (max-width: 550px) {
-  #mai1{
+  #mai1 {
     height: 15vh;
   }
-  
+
   #main1 h1 {
     margin-left: -12vw;
   }
@@ -331,60 +331,245 @@ body {
 }
 
 @media screen and (max-width: 1050px) {
-  #box{
+  #box {
     height: 50vh;
   }
-  }
+}
 
 @media screen and (max-width: 850px) {
-.Fh3{
-  font-size: 3vw;
-  margin: 4vh;
+  .Fh3 {
+    font-size: 3vw;
+    margin: 4vh;
+  }
+  .Sh3 {
+    font-size: 2vw;
+  }
+  #box {
+    height: 50vh;
+  }
+  #box .spans .s1 {
+    font-size: 1.5vw;
+  }
+  #box .spans .s2 {
+    font-size: 1.5vw;
+  }
 }
-.Sh3{
-  font-size:2vw ;
-}
-#box{
-  height: 50vh;
-}
-#box .spans .s1{
-  font-size:1.5vw ;
-}
-#box .spans .s2{
-  font-size:1.5vw ;
-}
-}
-
 
 @media screen and (max-width: 550px) {
-  .Fh3{
+  .Fh3 {
     font-size: 3vw;
   }
-  .Sh3{
-    font-size:2vw ;
+  .Sh3 {
+    font-size: 2vw;
   }
 
-  #box{
+  #box {
     height: 50vh;
   }
 
-  #box h3{
+  #box h3 {
     font-size: 2vw;
   }
-  #box p{
+  #box p {
     font-size: 2vw;
   }
-  #box p{
-font-size: 2.5vw;
+  #box p {
+    font-size: 2.5vw;
   }
-  #box p span{
+  #box p span {
     font-size: 1.5vw;
   }
 
-  #box .spans .s1{
-    font-size:2vw ;
+  #box .spans .s1 {
+    font-size: 2vw;
   }
-  #box .spans .s2{
-    font-size:2vw ;
+  #box .spans .s2 {
+    font-size: 2vw;
   }
+}
+
+.ubox {
+  color: white;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+/* !!!!!!!!!1box ends here!!!!!!!!!!!!!!! */
+
+#main2 {
+  background-color: white;
+  width: 100vw;
+  height: 70vh;
+}
+
+#main2 h1 {
+  font-size: 4vw;
+  margin-left: 5vw;
+}
+
+#main2 .cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#main2 .cards .card {
+  width: 20vw;
+  height: 30vh;
+  border: 2px solid white;
+  margin-top: 5vh;
+}
+
+#main2 .cards .card h2 {
+  font-size: 1.5vw;
+}
+
+#main2 .cards .card p {
+  color: grey;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 1.2vw;
+}
+
+#main2 .cards .card span {
+  color: rgb(48, 137, 167);
+  font-size: 1.1vw;
+}
+
+@media screen and (max-width: 750px) {
+  /* #main2 .cards {
+    height: 200vh;
+  } */
+  #main2 .cards {
+    flex-direction: column;
   }
+  #main2 .cards .card {
+    width: 100vw;
+    height: 10vh;
+    border: 2px solid white;
+    margin-top: 5vh;
+  }
+
+  #main2 .cards .card h2 {
+    font-size: 2vw;
+  }
+
+  #main2 .cards .card p {
+    font-size: 1.5vw;
+  }
+
+  #main2 .cards .card span {
+    font-size: 1.5vw;
+  }
+}
+
+/* @media screen and (max-width: 1500px) {
+  #main2 {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #main2 {
+    height: 30vh;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  #main2 .cards .card h2 {
+    font-size: 2.5vw;
+  }
+
+  #main2 .cards .card p {
+    font-size: 2vw;
+  }
+
+  #main2 .cards .card span {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #main2 .cards .card h2 {
+    font-size: 3vw;
+  }
+
+  #main2 .cards .card p {
+    font-size: 2.5vw;
+  }
+
+  #main2 .cards .card span {
+    font-size: 2.5vw;
+  }
+}
+
+/* #main2 ends here!!!!!!!!!!!!!!!!!!!!!!!!!!11 */
+
+#main3 {
+  background-color: white;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#main3 .btn {
+  font-family: "Poppins", sans-serif;
+  width: 15vw;
+  height: 10vh;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 1.1vw;
+}
+
+@media screen and (max-width: 1200px) {
+  #main3 .btn {
+    height: 5vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #main3 .btn {
+    height: 3vh;
+    font-size: 1.2vw;
+  }
+
+  #main3 h1 {
+    font-size: 3.5vw;
+  }
+
+  #main3 p {
+    font-size: 2vw;
+  }
+
+  #main3 h4 {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #main3 .btn {
+    height: 3vh;
+    font-size: 1.5vw;
+    width: 20vw;
+  }
+
+  #main3 h1 {
+    font-size: 5vw;
+  }
+
+  #main3 p {
+    font-size: 3vw;
+  }
+
+  #main3 h4 {
+    font-size: 3vw;
+  }
+}
