@@ -8,7 +8,7 @@
 body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-  background-color: black;
+  background-color: rgb(24, 19, 19);
 }
 
 #navbar {
@@ -116,16 +116,16 @@ body {
   }
 }
 
-
 /* <!-- !!!!!!!!!!!!!1navbar ends here!!!!!!!!!!!!!!!!!! --> */
 
-#main1{
+#main1 {
   width: 100vw;
   height: 70vh;
-  background-color: black;
+  background-color: rgb(24, 19, 19);
+  border-bottom: 2px solid black;
 }
 
-#main1 h1{
+#main1 h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
@@ -134,18 +134,18 @@ body {
   color: white;
 }
 
-#main1 h1:nth-child(2){
+#main1 h1:nth-child(2) {
   margin-top: -5vh;
   margin-left: -10vw;
 }
 
-#main1 p{
+#main1 p {
   text-align: center;
   font-size: 2vw;
   color: grey;
 }
 
-#main1 .btn{
+#main1 .btn {
   font-family: "Poppins", sans-serif;
   width: 15vw;
   height: 10vh;
@@ -157,66 +157,234 @@ body {
   margin-left: 20vw;
 }
 
-#main1 h4{
+#main1 h4 {
   margin-left: 20vw;
   color: white;
   margin-top: 2vh;
 }
 
 @media screen and (max-width: 1161px) {
-  #main1 h1:nth-child(2){
+  #main1 h1:nth-child(2) {
     margin-top: -2vh;
     margin-left: -8vw;
   }
 }
 
 @media screen and (max-width: 1020px) {
-  #main1 h1:nth-child(1){
+  #main1{
+    height: 40vh;
+   }
+   
+    #main1 h1 {
+      margin-left: -12vw;
+    }
+    #main1 p {
+      font-size: 3vw;
+      margin-left: -12vw;
+    }
+  
+  #main1 {
+    height: 50vh;
+  }
+  
+  #main1 h1:nth-child(1) {
     margin-top: 5vh;
   }
-  #main1 .btn{
+  #main1 .btn {
     height: 7vh;
     margin-top: 3vh;
   }
 }
 
 @media screen and (max-width: 850px) {
- 
-  #main1 .btn{
+  #main1{
+    height: 40vh;
+   }
+   
+    #main1 h1 {
+      margin-left: -12vw;
+    }
+    #main1 p {
+      font-size: 3vw;
+      margin-left: -12vw;
+    }
+  #main1 .btn {
     height: 5vh;
     margin-top: 3vh;
+    font-size: 1.2vw;
   }
-  #main1 p{
+  #main1 p {
     margin-top: 2vh;
   }
 }
 
 @media screen and (max-width: 600px) {
- #main1 h1{
-  font-size: 2rem;
+ #main1{
+  height: 40vh;
  }
- #main1 h1:nth-child(2){
-  margin-top: -2vh;
-  margin-left: -10vw;
- }
- #main1 .btn{
-  height: 4vh;
-  font-size: 1vw;
- }
- #main1 h4{
-font-size: 2vw;
-}
+ 
+  #main1 h1 {
+    margin-left: -12vw;
+  }
+  #main1 p {
+    font-size: 3vw;
+    margin-left: -12vw;
+  }
+  #main1 h1 {
+    font-size: 2rem;
+  }
+  #main1 h1:nth-child(2) {
+    margin-top: -2vh;
+    margin-left: -10vw;
+  }
+  #main1 .btn {
+    height: 4vh;
+    font-size: 2vw;
+    width: 20vw;
+  }
+  #main1 h4 {
+    font-size: 2vw;
+  }
 }
 
 @media screen and (max-width: 550px) {
- 
-  #main1 h1:nth-child(2){
-   margin-top: -1vh;
-   margin-left: -10vw;
+  #mai1{
+    height: 15vh;
   }
-  #main1 .btn{
-   height: 3vh;
-   font-size: 1vw;
+  
+  #main1 h1 {
+    margin-left: -12vw;
+  }
+  #main1 p {
+    font-size: 3vw;
+    margin-left: -12vw;
+  }
+  #main1 h1:nth-child(2) {
+    margin-top: -1vh;
+    margin-left: -10vw;
+  }
+  #main1 .btn {
+    height: 3vh;
+    width: 25vw;
+    font-size: 2vw;
+  }
+}
+
+/* !!!!!!!!main1 ends here!!!!!!!!!!!!1 */
+
+.Fh3 {
+  font-size: 1.5vw;
+  color: white;
+  text-align: center;
+  margin-top: 10vh;
+  font-family: monospace;
+}
+.Fh3 span {
+  color: blue;
+}
+
+.Sh3 {
+  margin-top: 4vh;
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+#box {
+  font-family: monospace;
+  width: 70vw;
+  margin: auto;
+  height: 70vh;
+  margin-top: 5vh;
+  border: 2px solid black;
+  box-shadow: 5px 10px 100px white;
+  color: white;
+}
+
+#box p {
+  margin-top: 3vh;
+  margin-left: 5vw;
+  color: grey;
+}
+#box h3 {
+  margin-top: 4vh;
+  margin-left: 3vw;
+}
+#box p span {
+  color: blue;
+  font-size: 1vw;
+}
+
+.spans {
+  margin-top: 3vh;
+}
+
+.s1 {
+  color: green;
+  margin-left: 5vw;
+  font-size: 1vw;
+}
+.s2 {
+  color: orange;
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 1050px) {
+  #box{
+    height: 50vh;
+  }
   }
 
- }
+@media screen and (max-width: 850px) {
+.Fh3{
+  font-size: 3vw;
+  margin: 4vh;
+}
+.Sh3{
+  font-size:2vw ;
+}
+#box{
+  height: 50vh;
+}
+#box .spans .s1{
+  font-size:1.5vw ;
+}
+#box .spans .s2{
+  font-size:1.5vw ;
+}
+}
+
+
+@media screen and (max-width: 550px) {
+  .Fh3{
+    font-size: 3vw;
+  }
+  .Sh3{
+    font-size:2vw ;
+  }
+
+  #box{
+    height: 50vh;
+  }
+
+  #box h3{
+    font-size: 2vw;
+  }
+  #box p{
+    font-size: 2vw;
+  }
+  #box p{
+font-size: 2.5vw;
+  }
+  #box p span{
+    font-size: 1.5vw;
+  }
+
+  #box .spans .s1{
+    font-size:2vw ;
+  }
+  #box .spans .s2{
+    font-size:2vw ;
+  }
+  }
